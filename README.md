@@ -17,6 +17,8 @@ Replace /path/to/file with the actual path to the file you want to lock or unloc
 
 The ***--lock*** or ***-l*** parameter is used to lock the file, which means that the file data will be converted into base64. The ***--unlock*** or ***-ulk*** parameter is used to unlock the file, which means that the base64 data will be converted back to the original file contents.
 
+## Examples
+
 Here's an example of how to lock a file:
 ```bash
 python shield.py --lock --file /path/to/file.txt
